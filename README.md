@@ -99,7 +99,8 @@ Path found: ['A', 'F', 'G', 'I', 'J']
 
 <hr>
 <h3>Program</h3>
-(````
+
+```
 from collections import defaultdict
 H_dist = {}
 def aStarAlgo(start_node, stop_node):
@@ -168,7 +169,8 @@ Graph_nodes = graph
 start_node = max(H_dist, key=H_dist.get) 
 goal_node = min(H_dist, key=H_dist.get)   
 aStarAlgo(start_node, goal_node)
-````)
+```
+                
 <h2>Sample Input</h2>
 <hr>
 6 6 <br>
